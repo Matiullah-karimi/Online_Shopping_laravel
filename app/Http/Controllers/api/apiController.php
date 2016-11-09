@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\api;
+use App\Feedback;
 use App\Product;
 use App\User;
 use Carbon\Carbon;
@@ -49,8 +50,9 @@ class apiController extends Controller
             return response()->json(['error' => 'could_not_create_token'], 500);
         }
 
+
         // all good so return the token
-        return response()->json(compact('token'));
+        return response()->json(['token' => $token, 'name' => Auth::user()->name, 'email' => Auth::user()->email]);
     }
 
     public function authProducts(){
@@ -69,7 +71,7 @@ class apiController extends Controller
         }
         else{
 
-            $user->wishlists()->sync([$id]);
+            $user->wishlists()->attach([$id]);
 
             return response()->json(['message' => 'Successfully Added'], 200);
         }
@@ -106,14 +108,10 @@ class apiController extends Controller
         }
         else{
 
-            $user->wishlists()->sync([$id]);
+            $user->carts()->attach([$id]);
 
             return response()->json(['message' => 'Successfully Added'], 200);
         }
-
-
-
-       // Auth::user()->carts()->sync([$id], false);
     }
 
     public function carts()
@@ -197,5 +195,45 @@ class apiController extends Controller
             return response()->json(compact('results'));
 
         }
+    }
+
+    // edit account
+    public function updateAccount(Request $request){
+        $user = User::find(Auth::user()->id);
+
+        $user->name = $request->get('name');
+        $user->email = $request->get('email');
+        $user->password = \Hash::make($request->get('password'));
+        $user->update();
+
+        return response()->json(['message' => 'Successfully updated']);
+
+    }
+
+    // cancel order
+    public function cancelOrder($id){
+
+        Auth::user()->orders()->detach($id);
+        return response()->json(['message'=> 'Order Successfully Canceled']);
+    }
+
+    // user feedback for app
+    public function feedback (Request $request){
+
+        $feedback = new Feedback();
+        $feedback->title = $request->get('title');
+        $feedback->description = $request->get('description');
+        $feedback->rate = $request->get('rate');
+        $feedback->users()->associate(Auth::user());
+        $feedback->username = Auth::user()->name;
+        $feedback->save();
+
+        return response()->json(['message'=> 'You have successfully rated our app']);
+    }
+
+    // feedbacks
+    public function feedbacks(){
+        $feedbacks = Feedback::all();
+        return response()->json(compact('feedbacks'));
     }
 }

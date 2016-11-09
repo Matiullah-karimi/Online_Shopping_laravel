@@ -41,7 +41,10 @@ Route::group(['namespace' => 'api', 'prefix' => 'api'], function()
 		Route::get('carts', 'apiController@carts');
 		Route::get('user/products', 'apiController@authProducts');
 		Route::post('order/{id}', 'apiController@order');
+		Route::get('cancelOrder/{id}', 'apiController@cancelOrder');
 		Route::get('orders', 'apiController@orders');
+		Route::post('updateAccount', 'apiController@updateAccount');
+		Route::post('feedback', 'apiController@feedback');
 	});
 
 	Route::post('register', 'apiController@register');
@@ -51,7 +54,7 @@ Route::group(['namespace' => 'api', 'prefix' => 'api'], function()
 	Route::get('women', 'apiController@women');
 	Route::get('kid', 'apiController@kid');
 	Route::get('search', 'apiController@search');
-
+	Route::get('feedbacks', 'apiController@feedbacks');
 
 });
 
