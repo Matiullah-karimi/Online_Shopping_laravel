@@ -4,7 +4,6 @@
     <list default="true" id="e1be0725-03dc-4538-8bcb-535176629eed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/api/apiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/api/apiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
     </list>
     <ignored path="Online_Shopping_laravel.iws" />
@@ -27,37 +26,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83728814">
+            <state vertical-scroll-proportion="-19.0">
               <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apiController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/api/apiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3461537">
-              <caret line="216" column="73" selection-start-line="216" selection-start-column="73" selection-end-line="216" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.4559322">
+              <caret line="222" column="50" selection-start-line="222" selection-start-column="50" selection-end-line="222" selection-end-column="50" />
               <folding>
                 <element signature="e#43#60#0#PHP" expanded="true" />
-                <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-                <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-                <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+                <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+                <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+                <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016_11_09_060417_create_feedback_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_11_09_060417_create_feedback_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.307693">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +54,7 @@
       <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
@@ -76,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.807692">
-              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -85,8 +74,8 @@
       <file leaf-file-name="Feedback.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Feedback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -113,11 +102,11 @@
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_10_22_072649_create_orders_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Feedback.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_11_09_060417_create_feedback_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/api/apiController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/api/apiController.php" />
       </list>
     </option>
   </component>
@@ -354,9 +343,9 @@
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -375,9 +364,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -396,9 +385,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -417,9 +406,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -438,9 +427,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -459,9 +448,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -480,9 +469,9 @@
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -501,9 +490,9 @@
           <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -522,9 +511,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
         </state>
       </provider>
@@ -715,30 +704,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_10_22_072649_create_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.615385">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.20847458">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_11_09_060417_create_feedback_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.35254237">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Feedback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -746,37 +750,21 @@
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.807692">
-          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_11_09_060417_create_feedback_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.307693">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/api/apiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3461537">
-          <caret line="216" column="73" selection-start-line="216" selection-start-column="73" selection-end-line="216" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.4559322">
+          <caret line="222" column="50" selection-start-line="222" selection-start-column="50" selection-end-line="222" selection-end-column="50" />
           <folding>
             <element signature="e#43#60#0#PHP" expanded="true" />
-            <marker date="1478688022058" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
-            <marker date="1478688022058" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1914" placeholder="SELECT p.*,I... products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1915" placeholder="SELECT p.*, products" />
+            <marker date="1478761821879" expanded="true" signature="1752:1917" placeholder="SELECT p.*, products" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83728814">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>

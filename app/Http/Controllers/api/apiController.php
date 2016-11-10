@@ -220,20 +220,25 @@ class apiController extends Controller
     // user feedback for app
     public function feedback (Request $request){
 
+        $f = Feedback::where('user_id', Auth::user()->id);
+        Auth::user()->feedbacks()->delete($f);
+
         $feedback = new Feedback();
         $feedback->title = $request->get('title');
         $feedback->description = $request->get('description');
         $feedback->rate = $request->get('rate');
-        $feedback->users()->associate(Auth::user());
         $feedback->username = Auth::user()->name;
+        $feedback->users()->associate(Auth::user());
         $feedback->save();
+
+
 
         return response()->json(['message'=> 'You have successfully rated our app']);
     }
 
     // feedbacks
     public function feedbacks(){
-        $feedbacks = Feedback::all();
+        $feedbacks = Feedback::orderBy('id','DESC')->get();
         return response()->json(compact('feedbacks'));
     }
 }
